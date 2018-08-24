@@ -15,7 +15,7 @@ def main(args):
     for num in set(phone_numbers):
         print(num)
 
-    email_addresses = re.findall(r'\S+@\S+\.S+', r.text)
+    email_addresses = re.findall(r'\S+@\S+\.\S+', r.text)
     print('\n--- Email Adresses ---\n')
     for email in set(email_addresses):
         print(email)
